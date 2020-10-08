@@ -1,0 +1,52 @@
+body{
+  margin:0;
+}
+
+.container{
+  padding: 0 10px 0 10px;
+}
+
+.navbar{
+  background-color: rgb(247, 242, 242);
+}
+header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+nav{
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin:10px;
+}
+
+li{
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 10px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+}
+
+li:hover{
+  background-color: rgb(207, 205, 205);
+}
+
+a{
+  text-decoration: none;
+  position: relative;
+  transform: translate(-50%);
+}
+
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

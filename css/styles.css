@@ -1,6 +1,13 @@
 body{
   margin: 0;
 }
+section{
+  margin-bottom: 90px;
+}
+
+a{
+  color: inherit;
+}
 
 /*  */
 .container{
@@ -115,10 +122,39 @@ h2{
   justify-content: center;
 }
 
+
+/* Skills */
+
+
+.skills{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.img_skills{
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  
+}
+
+
+
+/* Certifications */
+
+
+.div_certifications{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+
 /* Footer */
 /* ===== FOOTER =====*/
 .footer{
- 
+background-image: linear-gradient(to right, rgba(6, 6, 231, 0.9), rgba(150, 2, 150, 0.9)) ;
   color: #fff;
   text-align: center;
 
@@ -128,11 +164,11 @@ h2{
   font-size: 2rem;
 
 }
-.footer__social{
 
-}
 .footer__icon{
-  font-size: 1.5rem;
+  justify-content: center;
+  font-size: 2rem;
+  margin-right: 1.5rem;
   color: #fff;
 
 }

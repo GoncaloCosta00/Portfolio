@@ -6,13 +6,24 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
     <title>Gonçalo Costa</title>
 </head>
 
 <body>
     <!------------- HEADER ------------->
-    <div class="container navbar">
-        <header class="header">
+
+    <header class=" container-me navbar-me">
+        <div class="header-me">
             <div class="navbar-name">
                 <h1> <a href="#home">Gonçalo</a></h1>
             </div>
@@ -23,11 +34,12 @@
                     <li><a href="#Certifications">Certifications</a></li>
                 </ul>
             </nav>
-        </header>
-    </div>
+        </div>
+    </header>
+
 
     <!------------- HOME ------------->
-    <main>
+    <main class="main">
         <div class="home" id="home">
             <div class="teste">
                 <div class="home-text">
@@ -69,47 +81,138 @@
 
 
         <!------------- SKILLS ------------->
-        <section class="skills_section" id="Skills">
-            <h2 class="section-title">Skills</h2>
-            <div class="skills">
 
-                <div>
-                    <img src="img/html-5.svg" alt="HTML5" class="img_skills">
-                    <p>HTML5</p>
-                </div>
-                <div>
-                    <img src="img/css3.svg" alt="CSS3" class="img_skills">
-                    <p>CSS3</p>
-                </div>
-                <div>
-                    <img src="img/bootstrap.svg" alt="Bootstrap" class="img_skills">
-                    <p>BootStrap</p>
-                </div>
+        <!-- <section class="skills_section" id="Skills">
+            <div class="container-fluid mt-5">
 
-                <div>
-                    <img src="img/js.svg" alt="JavaScript" class="img_skills">
-                    <p>JavaScript</p>
+               
+                <div class="row">
+
+                   
+                    <div class="col-md-12 mb-4">
+
+                        <div class="container text-center ">
+                            <h2>Skills</h2>
+                            <div class="row ">
+                                <div id="recipeCarousel3" class="carousel slide w-100 " data-ride="carousel">
+                                    <div class="carousel-inner w-100 vv-3" role="listbox">
+                                        <div class="carousel-item active">
+                                            <div class="col-3 text_image" style="text-align: center; margin: 0;">
+                                                <img class="img-fluid" src="img/html-5.svg" width="100px"
+                                                    style=" margin: 0;">
+                                                <p>HTML5</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="col-3" style="text-align: center;">
+                                                <img class="img-fluid" src="img/css3.svg" width="100px"
+                                                    class="img_skills">
+                                                <p>HTML5</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="col-3" style="text-align: center;">
+                                                <img class="img-fluid" src="img/bootstrap.svg" width="100px"
+                                                    class="img_skills">
+                                                <p>HTML5</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="col-3" style="text-align: center;">
+                                                <img class="img-fluid img_skills" src="img/js.svg" width="100px"
+                                                    class="img_skills">
+                                                <p>HTML5</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="col-3" style="text-align: center;">
+                                                <img class="img-fluid" src="img/nodejs-01.png" width="100px"
+                                                    class="img_skills">
+                                                <p>HTML5</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="col-3" style="text-align: center;">
+                                                <img class="img-fluid" src="img/sql.png" width="75px">
+                                                <p>HTML5</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item" style="text-align: center;">
+                                            <div class="col-3">
+                                                <img class="img-fluid" src="img/postgres.png" width="90px"
+                                                    class="img_skills">
+                                                <p>HTML5</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+
                 </div>
-
-                <div>
-                    <img src="img/nodejs-01.png" alt="NodeJs" class="img_skills">
-                    <p>Node.Js</p>
-                </div>
-
-                <div>
-                    <img src="img/sql.png" alt="NodeJs" class="img_skills">
-                    <p>SQL</p>
-                </div>
-
-                <div>
-                    <img src="img/postgres.png" alt="NodeJs" class="img_skills">
-                    <p>PostgresSQL</p>
-                </div>
-
-
+                Grid row 
 
             </div>
+        </section> -->
+
+        <section>
+            <div class="container_skills" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div id="div_skills">
+                    <div class="skills" id="skills_row1">
+
+                        <div>
+                            <img src="img/html-5.svg" alt="HTML5" class="img_skills">
+                            <p>HTML5</p>
+                        </div>
+                        <div>
+                            <img src="img/css3.svg" alt="CSS3" class="img_skills">
+                            <p>CSS3</p>
+                        </div>
+                        <div>
+                            <img src="img/bootstrap.svg" alt="Bootstrap" class="img_skills">
+                            <p>BootStrap</p>
+                        </div>
+
+                        <div>
+                            <img src="img/js.svg" alt="JavaScript" class="img_skills">
+                            <p>JavaScript</p>
+                        </div>
+
+                        <div>
+                            <img src="img/React.svg" alt="React" class="img_skills">
+                            <p>React</p>
+                        </div>
+
+
+
+                    </div>
+                    <div class="skills" id="skills_row1">
+                        <div>
+                            <img src="img/nodejs-01.png" alt="NodeJs" class="img_skills">
+                            <p>Node.Js</p>
+                        </div>
+                        <div>
+                            <img src="img/sql.png" alt="SQL" class="img_skills">
+                            <p>SQL</p>
+                        </div>
+
+                        <div>
+                            <img src="img/postgres.png" alt="Postgres" class="img_skills">
+                            <p>PostgresSQL</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </section>
+
 
         <!------------- Certifications ------------->
         <section>
@@ -117,21 +220,15 @@
                 <h2 class="section-title">Certifications</h2>
                 <div class="div_certifications">
                     <div>
-                        <img src="img/html-5.svg" alt="HTML5" class="img_skills">
-                        <p>HTML5</p>
+                        <img src="img/Certificado Redes.jpg" alt="HTML5" class="img_certifications">
                     </div>
                     <div>
-                        <img src="img/html-5.svg" alt="HTML5" class="img_skills">
-                        <p>HTML5</p>
+                        <img src="img/Certificado Arduino.jpg" alt="HTML5" class="img_certifications">
                     </div>
-                    <div>
-                        <img src="img/html-5.svg" alt="HTML5" class="img_skills">
-                        <p>HTML5</p>
-                    </div>
+
                 </div>
             </div>
         </section>
-
 
 
 
@@ -139,12 +236,15 @@
     <footer class="footer">
         <p class="footer__title">Gonçalo</p>
         <div class="footer__social">
-            <a href="https://github.com/IanMoone00" class="footer__icon" target="_blank"><i class='bx bxl-github'></i></a>
-            <a href="https://www.linkedin.com/in/gon%C3%A7alo-costa-2429b319b/" class="footer__icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/IanMoone00" class="footer__icon" target="_blank"><i
+                    class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/gon%C3%A7alo-costa-2429b319b/" class="footer__icon" target="_blank"><i
+                    class='bx bxl-linkedin'></i></a>
             <!-- <a href="https://www.facebook.com/goncalo.costa.14/" target="_blank" class="footer__icon"><i class='bx bxl-facebook'></i></a> -->
         </div>
         <p>&#169; 2020 copyright all right reserved</p>
     </footer>
+
 
     <script src="js/script.js"></script>
 </body>

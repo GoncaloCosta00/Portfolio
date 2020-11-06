@@ -12,16 +12,18 @@ section{
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 50px;
+  border-radius: 8px;
 }
 
 main{
   /* margin: 0 15px 0 15px; */
   background-color: rgb(239, 241, 243);
-  padding: 0px 50px 0px 50px;
+  padding: 10px 50px 0px 50px;
   overflow-y: auto;
   overflow-x: hidden;
   height: 90vh;
   position: relative;
+  
 
 }
 
@@ -239,29 +241,48 @@ background-image: linear-gradient(to right, rgba(6, 6, 231, 0.9), rgba(150, 2, 1
 }
 
 
+@media only screen and (max-width: 639px)
+{
+  header{
+    height: 17vh;
+  }
 
+  .header-me{
+    display: block;
+  }
 
+  .home{
+    display: block;
 
-/*
-.carousel-inner.vv-3 .carousel-item.active,
-.carousel-inner.vv-3 .carousel-item-next,
-.carousel-inner.vv-3 .carousel-item-prev {
-  display: flex;
+  }
+  .teste{
+    display: block;
+    justify-content: center;
+    padding: 0;
+  }
+
+    .home-text{
+      text-align: center;
+    }
+
+    .main{
+      padding: 0px 25px 0px 25px;
+    }
+
+    .about-image{
+      max-width: 245px;
+      max-height: 245px;
+    }
+    
+    .section-title{
+      margin-bottom: 10px;
+    }
+
+    .img_certifications{
+      width: 250px;
+      height: 200px;
+      max-width: 300px;
+      
+    }
   
 }
-
-.carousel-inner.vv-3 .carousel-item-right.active,
-.carousel-inner.vv-3 .carousel-item-next {
-  transform: translateX(25%);
-}
-
-.carousel-inner.vv-3 .carousel-item-left.active,
-.carousel-inner.vv-3 .carousel-item-prev {
-  transform: translateX(-25%);
-}
-
-.carousel-inner.vv-3 .carousel-item-right,
-.carousel-inner.vv-3 .carousel-item-left {
-  transform: translateX(0);
-}
-*/

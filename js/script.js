@@ -1,5 +1,8 @@
 // função para fazer escrever letras do titulo tipo pc
+const titulo = document.getElementById ('titulo_home');
 const titulo2 = document.getElementById('titulo_home2');
+document.getElementById('titulo_home2').style.visibility="hidden"; //oculta o 2ºtitulo
+
 function typeWrite(elemento)
 {
     const textarray = elemento.innerHTML.split(''); // para cada letra ser uma posição do array
@@ -12,10 +15,16 @@ function typeWrite(elemento)
     });
     console.log(textarray);
 }
-const titulo = document.getElementById  ('titulo_home');
+
 
 typeWrite(titulo);
-setTimeout(function() {typeWrite(titulo2)},1750);
+// document.getElementById('titulo_home2').style.visibility="hidden";
+setTimeout(function() {efetuar()},1700);
+
+function efetuar(){
+    document.getElementById('titulo_home2').style.visibility="visible"; 
+    typeWrite(titulo2);
+}
 
 
 // typeWrite(titulo2);

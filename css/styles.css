@@ -1,12 +1,11 @@
-body{
+body {
   margin: 0;
   /* background: rgb(22, 104, 175); */
   overflow: hidden;
   display: flex;
   flex-direction: column;
-
 }
-section{
+section {
   background-color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -14,7 +13,7 @@ section{
   border-radius: 8px;
 }
 
-main{
+main {
   /* margin: 0 15px 0 15px; */
   background-color: rgb(239, 241, 243);
   padding: 10px 50px 0px 50px;
@@ -22,44 +21,39 @@ main{
   overflow-x: hidden;
   height: 90vh;
   position: relative;
-  
-
 }
 
 header {
   position: relative;
-  z-index: 20;  
+  z-index: 20;
   height: 10vh;
-  top:0;
+  top: 0;
 }
 
-
-a{
+a {
   color: inherit;
 }
 
-
-.section{
+.section {
   box-shadow: 0 1px 5px rgb(196, 189, 189);
-  
 }
 
-.section-title{
+.section-title {
   margin-bottom: 20px;
 }
 
 /*  */
-.container-me{
+.container-me {
   box-shadow: 0 1px 5px rgb(196, 189, 189);
- /* position: fixed; */
- display: block;
- width: 100%;
+  /* position: fixed; */
+  display: block;
+  width: 100%;
 }
 
-.navbar-me{
+.navbar-me {
   background-color: rgb(243, 241, 241);
 }
-.header-me{
+.header-me {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -68,14 +62,14 @@ a{
   padding: 5px 50px 5px 50px;
   height: 70px;
 }
-.navbar-name{
+.navbar-name {
   justify-content: center;
   align-items: center;
   display: flex;
 }
-nav{
+nav {
   display: flex;
-  align-items:center ;
+  align-items: center;
   justify-content: center;
 }
 nav ul {
@@ -86,7 +80,7 @@ nav ul {
   margin: 0;
 }
 
-li{
+li {
   list-style: none;
   margin-left: 20px;
   margin-right: 10px;
@@ -95,137 +89,133 @@ li{
   padding: 10px;
 }
 
-li:hover{
+li:hover {
   background-color: rgb(207, 205, 205);
 }
 
-a{
+a {
   text-decoration: none;
   position: relative;
   transform: translate(-50%);
 }
 
-
-
 /* HOME */
-.home{
+.home {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   flex-direction: row;
   /* margin-top: 70px ; */
   /* padding-top: 50px; */
   /* margin-bottom: 170px; */
 }
 
-.teste{
-  width: auto;
+.teste {
+  width: 100%;
   display: flex;
-  justify-content:  space-between;
+  justify-content: space-evenly;
 }
 
-.home-text{
+.home-text {
   align-self: center;
 }
+.home-image {
+  max-width: 200px;
+  max-height: 200px;
+}
 
-h1{
+#titulo_home2 {
+  text-align: initial;
+}
+
+h1 {
   margin: 0;
 }
 
-h2{
+h2 {
   text-align: center;
-   margin-bottom: 5px; 
+  margin-bottom: 5px;
 }
 
-#img_home{
+#img_home {
   width: 100%;
   height: auto;
-  max-width: 200px;
-  max-height: 200px;
-  margin-left: 150px;
-  border-radius: 50%;  /* imagem fica redonda */
+  border-radius: 50%; /* imagem fica redonda */
 }
-
 
 /*  ABOUT */
-.About{
+.About {
   padding-bottom: 20px;
 }
-.content-about{
+.content-about {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.about-image{
+.about-image {
   width: 100%;
   height: auto;
   max-width: 210px;
 }
 
-.text-about{
+.text-about {
   width: 45%;
   align-items: center;
   justify-content: center;
 }
 
-
 /* Skills */
 
-
-#div_skills{
+#div_skills {
   display: flex;
-  
+
   text-align: center;
   flex-direction: column;
 }
 
-.skills{
+.skills {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   margin-bottom: 25px;
 }
 
-.img_skills{
+.img_skills {
   width: 87px;
   height: 100px;
   max-width: 150px;
-  
 }
 
-.imagens{
+.imagens {
   width: 100px;
   height: 100px;
 }
 
-
-
-
-
 /* Certifications */
 
-
-.div_certifications{
+.div_certifications {
   display: flex;
   justify-content: space-around;
   text-align: center;
   flex-wrap: wrap;
 }
 
-.img_certifications{
+.img_certifications {
   width: 100%;
   height: auto;
   max-width: 290px;
-  
 }
-
 
 /* Footer */
 /* ===== FOOTER =====*/
-.footer{
-background-image: linear-gradient(to right, rgba(6, 6, 231, 0.9), rgba(150, 2, 150, 0.9)) ;
+.footer {
+  background-image: linear-gradient(
+    to right,
+    rgba(6, 6, 231, 0.9),
+    rgba(150, 2, 150, 0.9)
+  );
   color: #fff;
   text-align: center;
   width: 100%;
@@ -234,92 +224,121 @@ background-image: linear-gradient(to right, rgba(6, 6, 231, 0.9), rgba(150, 2, 1
   left: -50px;
   width: calc(100% + 100px);
 }
-.footer__title{
+.footer__title {
   font-size: 2rem;
-
 }
 
-.footer__icon{
+.footer__icon {
   justify-content: center;
   font-size: 2rem;
   margin-right: 1.5rem;
   color: #fff;
-
 }
 
-.text_image{
+.text_image {
   text-align: center;
   margin: 0;
 }
 
-
 /*cursor de efeito de digitação*/
- #titulo_home::after{
-   /* content: '|'; */
-   opacity: 1;
-   margin-left: 3px;
-   animation: piscar .7s infinite;
- }
+#titulo_home::after {
+  /* content: '|'; */
+  opacity: 1;
+  margin-left: 3px;
+  animation: piscar 0.7s infinite;
+}
 
- @keyframes piscar{
-   0%,100%{  /*dos 0 aos 50% e de 50 a 100% tem opacidade 1*/
-     opacity: 1;
-   }
-   50% {
-     opacity: 0;
-   }
- }
+@keyframes piscar {
+  0%,
+  100% {
+    /*dos 0 aos 50% e de 50 a 100% tem opacidade 1*/
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
 
-
-
-
-
-@media only screen and (max-width: 639px)
-{
-  header{
+@media only screen and (max-width: 639px) {
+  header {
     height: 17vh;
   }
 
-  .header-me{
+  .header-me {
     display: block;
   }
 
-  .home{
+  .home {
     display: block;
+  }
+  .teste {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    flex-direction: column;
 
   }
-  .teste{
-    display: block;
-    justify-content: center;
+
+  .home-image{
+    align-self: center;
+  }
+
+  .home-text {
+    text-align: center;
+  }
+
+  .main {
+    padding: 0px 25px 0px 25px;
+  }
+
+  .about-image {
+    max-width: 245px;
+    max-height: 245px;
+  }
+
+  .section-title {
+    margin-bottom: 10px;
+  }
+
+  .img_certifications {
+    width: 250px;
+    height: 200px;
+    max-width: 300px;
+  }
+
+  .div_img_certifications {
+    margin-bottom: 23px;
+  }
+
+  ul{
     padding: 0;
   }
+  li{
+    margin: 0;
+  }
+}
 
-    .home-text{
-      text-align: center;
-    }
+@media only screen and (max-width: 491px) {
+  .header-me {
+    padding: 0px;
+  }
+  ul{
+    padding: 0;
+  }
+  li{
+    margin: 0;
+  }
+}
 
-    .main{
-      padding: 0px 25px 0px 25px;
-    }
 
-    .about-image{
-      max-width: 245px;
-      max-height: 245px;
-    }
-    
-    .section-title{
-      margin-bottom: 10px;
-    }
-
-    .img_certifications{
-      width: 250px;
-      height: 200px;
-      max-width: 300px;
-      
-    }
-   
-    .div_img_certifications{
-      margin-bottom: 23px;
-    }
-  
+@media only screen and (max-width: 391px) {
+  .header-me {
+    margin: 0px;
+  }
+  ul{
+    padding: 0;
+  }
+  li{
+    margin: 0;
+  }
 }

@@ -316,6 +316,26 @@ h2 {
   li{
     margin: 0;
   }
+
+  .about{
+    padding: 0 10 0 10;
+  }
+  .text-about{
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .content-about{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+  }
+  .text-about{
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 491px) {

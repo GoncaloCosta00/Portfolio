@@ -29,3 +29,5 @@ function efetuar(){
 
 // typeWrite(titulo2);
 
+
+

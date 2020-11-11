@@ -363,6 +363,9 @@ h2 {
   li{
     margin: 0;
   }
+  #titulo_home2{
+    text-align: center;
+  }
 }
 
 

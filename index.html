@@ -8,21 +8,19 @@
     <meta name="description" content="Página pessoal com algumas informações sobre mim">
     <meta name="author" content="Gonçalo Costa">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" type="image/x-icon" href="/img/g.png">
+    <link rel="icon" type="image/x-icon" href="img/g.png">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-	
+
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    
+
     <title>Gonçalo Costa</title>
 
-    
+
 </head>
 
-<!-- para proteger este código -> oncontextmenu="return false" onkeydown="return false"
-        Isto bloqueia o right click mouse e element inspector -->
-<body class="fadeIn">
+<body class="body">
     <!------------- HEADER ------------->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     <header class=" container-me navbar-me">
@@ -42,30 +40,30 @@
 
 
     <!------------- HOME ------------->
-    <main class="main">
+    <main class="main" id="main">
 
         <section class="section" id="home">
-            <div class="home" >
+            <div class="home">
                 <div class="teste">
                     <div class="home-text">
                         <h1 class="titulo_home" id="titulo_home">Hello, I'am Gonçalo</h1>
                         <h2 class="titulo_home" id="titulo_home2">Welcome to my page</h2>
                     </div>
                     <div class="home-image">
-                        <img id="img_home" src="img/img_avatar.png" alt="Não é possivel mostrar a imagem">
+                        <img id="img_home" src="img/me_1.jpg" alt="Não é possivel mostrar a imagem">
                     </div>
-                   
+
                 </div>
             </div>
         </section>
 
         <!------------- About ------------->
         <section class="section" id="About">
-            <div class="About" >
+            <div class="About">
                 <h2 class="section-title">About</h2>
                 <div class="content-about">
                     <div>
-                        <img class="about-image" src="img/img_avatar.png" alt="Não é possivel mostrar a imagem ">
+                        <img class="about-image" src="img/me_2.jpg" alt="Não é possivel mostrar a imagem ">
 
                     </div>
                     <div class="text-about">
@@ -83,19 +81,17 @@
             </div>
 
         </section>
-
-
-        <!------------- SKILLS ------------->
-        <section class="section" onfocus="teste(section_skills)" id="Skills"> 
-            <div class="container_skills" >
+        <!-- SKILLS -->
+        <section class="section" id="Skills">
+            <div class="container_skills">
                 <h2 class="section-title">Skills</h2>
                 <div id="div_skills">
                     <div class="skills" id="skills_row1">
-
                         <div>
                             <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" class="imagens">
                                 <path fill="#E44D26"
-                                    d="M19.037 113.876l-10.005-112.215h109.936l-10.016 112.198-45.019 12.48z"></path>
+                                    d="M19.037 113.876l-10.005-112.215h109.936l-10.016 112.198-45.019 12.48z">
+                                </path>
                                 <path fill="#F16529" d="M64 116.8l36.378-10.086 8.559-95.878h-44.937z"></path>
                                 <path fill="#EBEBEB"
                                     d="M64 52.455h-18.212l-1.258-14.094h19.47v-13.762h-34.511l.33 3.692 3.382 37.927h30.799zM64 88.198l-.061.017-15.327-4.14-.979-10.975h-13.817l1.928 21.609 28.193 7.826.063-.017z">
@@ -210,7 +206,6 @@
                             <p>PostgresSQL</p>
                         </div>
 
-
                     </div>
 
                 </div>
@@ -220,7 +215,7 @@
 
         <!------------- Certifications ------------->
         <section class="section" id="Certifications">
-            <div class="Certifications" >
+            <div class="Certifications">
                 <h2 class="section-title">Certifications</h2>
                 <div class="div_certifications">
                     <div class="div_img_certifications">
@@ -229,7 +224,7 @@
                     <div class="div_img_certifications">
                         <img src="img/Certificado Arduino.jpg" alt="HTML5" class="img_certifications">
                     </div>
-                     <div class="div_img_certifications">
+                    <div class="div_img_certifications">
                         <img src="img/certificado_ingles.jpg" alt="HTML5" class="img_certifications">
                     </div>
 
